@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*шрифты*/
+
+p, a {
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+.op {
+    opacity: 0.1;
+}
+
+/*ЭЛЕМЕНТЫ*/
+
+.vopros {
+    position: absolute;
+    top: 2vw;
+    right: 0;
+}
+.vopros2 {
+    position: absolute;
+    top: -2vw;
+    left: 26vw;
+}
+.circle {
+    display: inline-block;
+    padding: 1.5vw 0 0 1.5vw;
+    background-image: url(./img/circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.price {
+    text-transform: lowercase;
+    color: red;
+}
+
+.button {
+    min-width: 22vw;
+    background-color: #f63f54;
+    padding: 1.3vw;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 5vw;
+}
+
+.button:hover {
+    background-color: #f05d6e;
+}
+
+.button:active {
+    background-color: #ca4151;
+}
+
+.outer {
+    /*выравнивание текста по середине*/
+    display: flex;
+    align-items: center;
+}
+
+.abc_1 {
+    position: absolute;
+    top: 0;
+    left: -1.5vw;
+    z-index: 1;
+}
+
+.abc_2 {
+    position: absolute;
+    top: 0;
+    right: -2.5vw;
+    z-index: 1;
+}
+
+.abc_3 {
+    position: absolute;
+    top: 1.5vw;
+    right: -12vw;
+    z-index: 1;
+}
+.social a {
+    text-decoration: none;
+}
+/*MODAL*/
+
+.modal-body {
+    padding: 6vw;
+}
+
+.phone {
+    width: 70%;
+    padding: 1vw;
+    border-radius: 45px;
+    border: 1px solid rgb(156, 145, 131);
+    background-color: white;
+    text-align: center;
+}
+
+.button_modal {
+    width: 70%;
+    background-color: #f63f54;
+    padding: 1vw;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 1vw;
+}
+
+.close {
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+}
+
+/*БЛОКИ*/
+
+.header {
+    background-image: url(./img/back_header.png);
+    background-repeat: no-repeat;
+    background-position: 0 30%;
+    background-size: contain;
+    padding-top: 2vw;
+}
+
+.block_1 {
+    background-image: url(./img/back22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5.3vw;
+    padding-bottom: 12vw;
+}
+
+.block_2 {
+    background-image: url(./img/girls.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 40%;
+    padding-top: 15vw;
+    padding-bottom: 8vw;
+    margin-top: -8vw;
+}
+
+.block_4 {
+    background-image: url(./img/bigben_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 4vw;
+    margin-top: 5.3vw;
+    margin-bottom: 7.3vw;
+}
+
+.block_5 {
+    background-image: url(./img/back555.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7vw 0 20vw;
+}
+
+.b1 {
+    background-image: url(./img/b1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50%;
+}
+
+.b2 {
+    background-image: url(./img/b2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+.b3 {
+    background-image: url(./img/b3.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50%;
+}
+
+.b4 {
+    background-image: url(./img/b4.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+.block_6 {
+    background-image: url(./img/air_2.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 70%;
+    padding-top: 6vw;
+    padding-bottom: 9.5vw;
+}
+
+.footer {
+    background-color: rgb(231, 226, 226);
+    padding-top: 4vw;
+    padding-bottom: 5vw;
+}
+
+/*padding*/
+
+.pt_100 {
+    padding-top: 4vw;
+}
+
+.pt_230 {
+    padding-top: 11vw;
+}
+
+/*margin*/
+
+.mb_10 {
+    margin-bottom: 0.5vw;
+}
+
+.mb_30 {
+    margin-bottom: 1.5vw;
+}
+
+.mb_50 {
+    margin-bottom: 3vw;
+}
+
+.mb_70 {
+    margin-bottom: 5vw;
+}
+
+.mb_125 {
+    margin-bottom: 6vw;
+}
+
+.mb_250 {
+    margin-bottom: 12vw;
+}
+
+.mt_30 {
+    margin-top: 1.5vw;
+}
+
+.mt_minus30 {
+    margin-top: -1.5vw;
+}
+
+.mt_minus170 {
+    margin-top: -9vw;
+}
+
+.ml_30 {
+    margin-left: 1.5vw
+}
+
+/*КАРУСЕЛЬ ОТЗЫВЫ*/
+
+.wrapper {
+    max-width: 1170px;
+    margin: auto;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.review {
+    min-width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.photo {
+    margin-right: 10px;
+}
+
+@media (max-width: 1700px) {
+    p, a, .button {
+        font-size: 1.7rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .block_4 {
+        background-image: url(./img/bigben_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: -10vw;
+        padding-top: 4vw;
+        margin-top: 5.3vw;
+        margin-bottom: 7.3vw;
+    }
+}
+
+@media (max-width: 1150px) {
+    p, a, .button {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .adress, .telephone, .callBack a {
+        font-size: 1.2rem;
+    }
+    .container {
+        max-width: 600px;
+    }
+    .block_4 {
+        background-image: url(./img/bigben_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: -30vw;
+        padding-top: 4vw;
+        margin-top: 5.3vw;
+        margin-bottom: 7.3vw;
+    }
+}
+
+@media (max-width: 1028px) {
+    .container {
+        max-width: 600px;
+    }
+    .block_4 {
+        background-image: url(./img/bigben_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: -35vw;
+        padding-top: 4vw;
+        margin-top: 5.3vw;
+        margin-bottom: 7.3vw;
+    }
+    .vopros2 {
+        position: absolute;
+        top: -2vw;
+        left: 32vw;
+    }
+}
+
+@media (max-width: 956px) {
+    .container {
+        max-width: 600px;
+    }
+    .block_4 {
+        background-image: url(./img/bigben_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: -45vw;
+        padding-top: 4vw;
+        margin-top: 5.3vw;
+        margin-bottom: 7.3vw;
+    }
+    .vopros2 {
+        position: absolute;
+        top: -2vw;
+        left: 37vw;
+    }
+}
+
+@media (max-width: 830px) {
+    .container {
+        max-width: 600px;
+    }
+    .block_4 {
+        background-image: url(./img/bigben_2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: -55vw;
+        padding-top: 4vw;
+        margin-top: 5.3vw;
+        margin-bottom: 7.3vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .center {
+        text-align: center;
+    }
+    .blockCenter {
+        display: block;
+        margin: auto;
+    }
+    .outer {
+        display: block;
+    }
+    .header {
+        background-image: none;
+        padding-top: 2vw;
+        margin-bottom: 7vw;
+    }
+    .telephone, .callBack, .callBack a {
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    .block_1 {
+        background-image: url(./img/back55.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 5.3vw;
+        padding-bottom: 12vw;
+    }
+    .block_2 {
+        background-image: none;
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+    }
+    .circle {
+        display: inline-block;
+        padding: 10vw 0 0 0;
+        background-image: url(./img/circle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .b1, .b2, .b3, .b4 {
+        background-image: none;
+    }
+    .mb_15 {
+        margin-bottom: 5vw;
+    }
+    .mb_25 {
+        margin-bottom: 7.5vw;
+    }
+    .mb_40 {
+        margin-bottom: 15vw;
+    }
+    .mt_minus170 {
+        margin-top: 0vw;
+    }
+    .block_4 {
+        background-image: none;
+        padding-top: 4vw;
+        margin-top: 5.3vw;
+        margin-bottom: 7.3vw;
+    }
+    .block_5 {
+        background-image: url(./img/back55.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 7vw 0 10vw;
+    }
+    .block_6 {
+        background-image: none;
+        padding-top: 6vw;
+        padding-bottom: 9.5vw;
+    }
+}
